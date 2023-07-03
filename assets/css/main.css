@@ -2203,11 +2203,17 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 2.5em 0;
-			width: 100%;
+			/* width: 100%; */
+
+			width: 20rem;
+			object-fit: cover;
+			/* border-radius: 20px; */
+
 		}
 
 			.image.main img {
 				width: 100%;
+				border-radius: 20px;
 			}
 
 			@media screen and (max-width: 736px) {
